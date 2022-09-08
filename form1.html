@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center;">REGISTRATION FORM</h1>
+    <form action="">
+        <fieldset style="margin-left:300px;margin-right:300px;background-color:blanchedalmond;color:rgb(1, 8, 5);border-radius:15px;border-style: inset;border-color: rgb(34, 21, 55);">
+            <legend style="color: rgb(35, 21, 4);">Trainee Registration Details</legend>
+            <label>First name</label><br>
+            <input type="text" name="fname" required><br>
+            <label>Last name</label><br>
+            <input type="text" name="lname" required><br>
+            <label>Email</label><br>
+            <input type="email" name="email" required><br>
+            <label>password</label><br>
+            <input type="password" name="password" required><br>
+            <label>Age</label>
+            <input type="number" required min="21" max="25"><br>
+            <label>Date of Birth</label><br>
+            <input type="date" required><br>
+            <label>Gender</label><br>
+            <input type="radio" id="gender" name="gender" value="Female">Female<br>
+            <input type="radio" id="gender" name="gender" value="Male">Male<br>
+            <label>Address</label><br>
+            <textarea></textarea><br>
+            <label>Select Course</label><br>
+            <select name="Course">
+                <optgroup label="DOTNET">
+                    <option>.NET MVC</option>
+                    <option>.NET CORE</option>
+                </optgroup>
+                <optgroup label="JAVA">
+                    <option>SPRING</option>
+                    <option>SPRING BOOT</option>
+                </optgroup>
+            </select><br><br>
+            <label>Certifications Taken</label><br>
+            <input type="checkbox" value="Microsoft Certified"><label>Microsoft Certified</label><br>
+            <input type="checkbox" value="Oracle Certified"><label>Oracle Certified></label>
+            <input type="checkbox" value="Azure Certified"><label>Azure Certified</label>
+            <input type="checkbox" value="MY SQL Certified"><label>MY SQL Certified</label>
+            <br>
+            <br>
+            <input type="submit">
+        </fieldset>
+    </form>
+
+</body>
+</html>
